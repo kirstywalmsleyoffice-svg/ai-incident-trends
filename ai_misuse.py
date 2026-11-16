@@ -21,6 +21,7 @@ plt.title("Share of reported AI incidents involving misuse (2026 provisional)")
 plt.ylabel("Share of reported incidents (%)")
 plt.xticks(recent.index, rotation=45)
 plt.tight_layout()
+plt.savefig("C:/Users/UserPC/Downloads/misuse_share.png", dpi=150)
 plt.show()
 
 input("Press Enter to close")
